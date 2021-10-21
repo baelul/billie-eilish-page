@@ -1,0 +1,119 @@
+/* css applied to entire page */
+* {
+  text-align: center;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+/* get rid of slight border and change text to white */
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* for margin and padding: top, right, bottom, left */
+
+.eras {
+  display: flex;
+  flex-direction: column;
+}
+
+/* remove to have info under year */
+.content {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 50%;
+}
+
+.year16, .year17, .year18, .year19, .year21, .year {
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 10% 10% 10%;
+}
+
+.img_sec {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img_sec img {
+  max-height: 30vh;
+  width: auto;
+  height: auto;
+}
+
+.tt {
+  display: flex;
+  justify-content: center;
+  flex: 50%;
+  height: 101vh;
+}
+
+.header, .yr  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 101vh;
+  width: auto;
+}
+
+.img_sec {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  flex-direction: column;
+  background-color: lightblue;
+}
+
+#year16 {
+  background-image: url("images/billie-1.gif");
+}
+
+#year17 {
+  background-image: url("images/billie-2.gif");
+}
+
+#year18 {
+  background-image: url("images/billie-3.gif");
+}
+
+#year19 {
+  background-image: url("images/billie-4.gif");
+}
+
+#year21 {
+  background-image: url("images/billie-5.gif");
+}
+
+#yr16 {
+  background-color: #e3af22;
+}
+
+#yr17 {
+  background-color: #c8373e;
+}
+
+#yr18 {
+  background-color: #4c709c;
+}
+
+#yr19 {
+  background-color: #b2e752;
+}
+
+#yr21 {
+  background-color: #c69c78;
+}
