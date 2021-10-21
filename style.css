@@ -29,8 +29,7 @@ body {
 }
 
 .bio p {
-  font-family: 'Tinos', serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /* for margin and padding: top, right, bottom, left */
@@ -55,8 +54,7 @@ body {
 }
 
 .year h1 {
-  font-family: 'Tinos', serif;
-  font-size: 45px;
+  font-size: 50px;
 }
 
 .year {
@@ -132,7 +130,7 @@ body {
 }
 
 #yr16 {
-  background-color: #fad687;
+  background-color: #f3bb01;
 }
 
 #yr17 {
@@ -144,7 +142,7 @@ body {
 }
 
 #yr19 {
-  background-color: #b2e752;
+  background-color: #001d06;
 }
 
 #yr21 {
