@@ -11,6 +11,10 @@ body {
   color: white;
 }
 
+.bio {
+  margin: 0% 25% 0% 25%;
+}
+
 /* for margin and padding: top, right, bottom, left */
 
 .eras {
@@ -32,12 +36,16 @@ body {
   flex: 50%;
 }
 
-.year16, .year17, .year18, .year19, .year21, .year {
+.year {
   display: flex;
   flex: 50%;
   justify-content: center;
   align-items: center;
   padding: 10% 10% 10% 10%;
+}
+
+.text {
+  padding: 0% 10% 0% 10%;
 }
 
 .img_sec {
@@ -56,6 +64,7 @@ body {
   justify-content: center;
   flex: 50%;
   height: 101vh;
+  opacity: 0.75;
 }
 
 .header, .yr  {
@@ -99,7 +108,7 @@ body {
 }
 
 #yr16 {
-  background-color: #e3af22;
+  background-color: #fad687;
 }
 
 #yr17 {
