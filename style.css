@@ -14,6 +14,10 @@ body {
   color: white;
 }
 
+.header audio {
+  display: none;
+}
+
 .name {
   font-size: 80px;
 }
