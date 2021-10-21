@@ -1,4 +1,7 @@
-/* css applied to entire page */
+/* css applied to entire page
+font from billie's website:
+font-family: 'Tinos', serif; */
+
 * {
   text-align: center;
   font-family: 'Noto Sans Mono', monospace;
@@ -11,8 +14,23 @@ body {
   color: white;
 }
 
+.name {
+  font-size: 80px;
+}
+
+.name h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Archivo Black', sans-serif;
+}
+
 .bio {
   margin: 0% 25% 0% 25%;
+}
+
+.bio p {
+  font-family: 'Tinos', serif;
+  font-size: 30px;
 }
 
 /* for margin and padding: top, right, bottom, left */
@@ -34,6 +52,11 @@ body {
   flex-direction: column;
   justify-content: center;
   flex: 50%;
+}
+
+.year h1 {
+  font-family: 'Tinos', serif;
+  font-size: 45px;
 }
 
 .year {
@@ -84,7 +107,8 @@ body {
 
 .header {
   flex-direction: column;
-  background-color: lightblue;
+  background-image: url("images/billie-7.gif");
+  opacity: 0.65;
 }
 
 #year16 {
@@ -104,7 +128,7 @@ body {
 }
 
 #year21 {
-  background-image: url("images/billie-5.gif");
+  background-image: url("images/billie-6.gif");
 }
 
 #yr16 {
